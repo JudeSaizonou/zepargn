@@ -279,6 +279,16 @@ p {
     font-weight: 500;
   }
 
+  /* Hide native spinners on all number inputs site-wide */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
   .type-decor {
     font-size: clamp(3.4rem, 6vw, 6rem);
     line-height: 0.9;

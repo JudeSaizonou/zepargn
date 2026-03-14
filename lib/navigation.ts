@@ -95,6 +95,12 @@ export const NAV_TABS: NavTab[] = [
         visualLabel: "FAQ"
       },
       {
+        label: "Calculateur de budget",
+        href: "/ressources/budget",
+        description: "Planifiez vos dépenses et visualisez vos flux financiers.",
+        visualLabel: "Budget"
+      },
+      {
         label: "Simulateur",
         href: "/simulateur",
         description: "Testez un montant et une durée en quelques secondes.",
